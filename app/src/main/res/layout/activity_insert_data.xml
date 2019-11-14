@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".insert_data">
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="username"
+        ></TextView>
+    <TextView
+        android:id="@+id/iduser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100sp"
+        android:text="ddd">
+    </TextView>
+<TextView
+    android:layout_below="@id/username"
+    android:id="@+id/password"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="password"
+    >
+
+
+</TextView>
+    <TextView
+        android:id="@+id/idpassword"
+        android:layout_below="@id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100sp"
+        android:text="ddd">
+    </TextView>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="insert now"
+        android:onClick="insert"
+        android:layout_below="@id/password"
+        ></Button>
+
+</RelativeLayout>
